@@ -93,7 +93,7 @@
 @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
 
 .heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ethnocentric', 'Eurostile', 'Orbitron', sans-serif;
   font-size: clamp(1.5rem, 5vw, 3rem);
   font-weight: 900;
   line-height: 1.12;
@@ -296,7 +296,7 @@
   margin-bottom: 24px;
 }
 .taglineWord {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ethnocentric', 'Eurostile', 'Orbitron', sans-serif;
   font-size: 0.95rem;
   font-weight: 800;
   letter-spacing: 0.12em;

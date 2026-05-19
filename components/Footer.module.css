@@ -7,7 +7,7 @@
 
 .top { display: flex; flex-direction: column; align-items: center; text-align: center; }
 .heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ethnocentric', 'Eurostile', 'Orbitron', sans-serif;
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 800; color: #fff; margin-bottom: 12px;
 }
