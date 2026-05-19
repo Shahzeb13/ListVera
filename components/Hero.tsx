@@ -37,49 +37,49 @@ export default function Hero() {
       <div className={styles.bgGlow} />
       <div className={styles.bgGrid} />
 
-      {/* Orbital Ring System (Desktop Only) */}
-      <div className={styles.orbitContainer} aria-hidden="true">
-        {/* Ring 1 (Inner) */}
-        <div className={styles.ring1}>
-          {RING1_LOGOS.map((logo, idx) => (
-            <div
-              key={idx}
-              className={styles.logoBubble}
-              style={getPosition(logo.angle, 250)}
-            >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={36}
-                height={36}
-                style={{ objectFit: "contain" }}
-              />
-            </div>
-          ))}
-        </div>
-
-        {/* Ring 2 (Outer) */}
-        <div className={styles.ring2}>
-          {RING2_LOGOS.map((logo, idx) => (
-            <div
-              key={idx}
-              className={styles.logoBubble}
-              style={getPosition(logo.angle, 350)}
-            >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={36}
-                height={36}
-                style={{ objectFit: "contain" }}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Main content */}
       <div className={styles.content}>
+        {/* Orbital Ring System */}
+        <div className={styles.orbitContainer} aria-hidden="true">
+          {/* Ring 1 (Inner) */}
+          <div className={styles.ring1}>
+            {RING1_LOGOS.map((logo, idx) => (
+              <div
+                key={idx}
+                className={styles.logoBubble}
+                style={getPosition(logo.angle, 250)}
+              >
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={36}
+                  height={36}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Ring 2 (Outer) */}
+          <div className={styles.ring2}>
+            {RING2_LOGOS.map((logo, idx) => (
+              <div
+                key={idx}
+                className={styles.logoBubble}
+                style={getPosition(logo.angle, 350)}
+              >
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={36}
+                  height={36}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
         <div className={styles.badge}>
           <span className={styles.dot} />
           Get Your Token Listed on Tier-1 Exchanges
@@ -109,7 +109,7 @@ export default function Hero() {
       </div>
 
       {/* Responsive mobile exchange logo grid (Collapsed fallback) */}
-      <div className={styles.mobileLogos}>
+      {/* <div className={styles.mobileLogos}>
         <p className={styles.mobileLogosPre}>Our Centralized Exchange Partners</p>
         <div className={styles.mobileLogosGrid}>
           {RING1_LOGOS.concat(RING2_LOGOS).map((logo, idx) => (
@@ -124,7 +124,7 @@ export default function Hero() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

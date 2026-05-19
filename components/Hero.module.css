@@ -150,7 +150,7 @@
   transform: translate(-50%, -50%);
   width: 900px; height: 900px;
   pointer-events: none;
-  z-index: 1;
+  z-index: -1;
   display: block;
 }
 
@@ -246,7 +246,7 @@
   .orbitContainer {
     display: block;
     transform: translate(-50%, -50%) scale(0.68);
-    top: 320px;
+    top: 48%;
   }
   .mobileLogos { display: block; }
   .hero { min-height: 100vh; padding-bottom: 40px; }
@@ -256,9 +256,10 @@
   .orbitContainer {
     display: block;
     transform: translate(-50%, -50%) scale(0.54);
-    top: 290px;
+    top: 48%;
   }
-  .hero { padding-top: 130px; min-height: 100vh; }
+  .hero { padding-top: 90px; min-height: 100vh; }
+  .content { margin-top: -15px; }
   .heading { font-size: clamp(1.15rem, 5vw, 1.65rem); }
   .badge { font-size: 0.7rem; padding: 4px 10px; }
   .taglineWord { font-size: 0.75rem !important; }
@@ -273,12 +274,14 @@
   .orbitContainer {
     display: block;
     transform: translate(-50%, -50%) scale(0.42);
-    top: 240px;
+    top: 48%;
   }
   .logoBubble {
     width: 50px; height: 50px;
     padding: 9px;
   }
+  .hero { padding-top: 80px; min-height: 100vh; }
+  .content { margin-top: -30px; }
   .heading { font-size: clamp(0.92rem, 4.6vw, 1.25rem); margin-bottom: 10px; }
   .badge { font-size: 0.6rem; padding: 3px 8px; margin-bottom: 12px; }
   .taglineBox { margin-bottom: 12px; gap: 5px; }
