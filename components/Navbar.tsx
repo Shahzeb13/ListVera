@@ -24,7 +24,9 @@ export default function Navbar() {
             height={34}
             className={styles.logoImg}
           />
-          <span className={styles.logoText}>ListVera</span>
+          <span className={styles.logoText}>
+            <span className="listvera-text">List<span className="listvera-v">V</span>era</span>
+          </span>
         </a>
 
         <ul className={styles.links}>

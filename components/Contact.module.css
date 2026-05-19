@@ -34,8 +34,8 @@
 .infoIcon {
   width: 44px; height: 44px; flex-shrink: 0;
   border-radius: 10px;
-  background: rgba(0, 212, 255, 0.08);
-  border: 1px solid rgba(0, 212, 255, 0.2);
+  background: rgba(136, 80, 240, 0.08);
+  border: 1px solid rgba(136, 80, 240, 0.2);
   display: flex; align-items: center; justify-content: center;
   font-size: 1.2rem;
 }
@@ -45,7 +45,7 @@
 /* Form card */
 .formCard {
   background: var(--bg-card);
-  border: 1px solid rgba(0, 212, 255, 0.12);
+  border: 1px solid rgba(136, 80, 240, 0.12);
   border-radius: var(--radius-lg);
   padding: 40px;
   position: relative;
@@ -78,8 +78,8 @@
 }
 .input::placeholder, .textarea::placeholder { color: #444; }
 .input:focus, .select:focus, .textarea:focus {
-  border-color: rgba(0, 212, 255, 0.5);
-  box-shadow: 0 0 16px rgba(0, 212, 255, 0.1);
+  border-color: rgba(136, 80, 240, 0.5);
+  box-shadow: 0 0 16px rgba(136, 80, 240, 0.1);
 }
 .select {
   cursor: pointer; appearance: none;
@@ -94,7 +94,7 @@
 .submit {
   padding: 14px;
   width: 100%;
-  background: var(--neon-blue); color: #000;
+  background: var(--neon-blue); color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 0.95rem; font-weight: 800;
   border-radius: var(--radius);
@@ -102,8 +102,8 @@
   transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 .submit:hover {
-  background: #33e1ff;
-  box-shadow: 0 0 28px rgba(0, 212, 255, 0.35);
+  background: #9c6bf2;
+  box-shadow: 0 0 28px rgba(136, 80, 240, 0.35);
   transform: translateY(-2px);
 }
 .submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
@@ -118,7 +118,7 @@
 .successIcon {
   width: 64px; height: 64px;
   border-radius: 50%;
-  background: rgba(0, 212, 255, 0.1);
+  background: rgba(136, 80, 240, 0.1);
   border: 2px solid var(--neon-blue);
   color: var(--neon-blue); font-size: 2rem;
   display: flex; align-items: center; justify-content: center;

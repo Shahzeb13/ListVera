@@ -27,7 +27,7 @@
 }
 .logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .logoImg {
-  border-radius: 8px;
+  border-radius: 50%;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -51,18 +51,19 @@
   padding: 9px 22px;
   border-radius: 6px;
   font-size: 0.875rem; font-weight: 700;
-  color: #000;
+  color: #fff;
   background: var(--neon-blue);
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 .cta:hover {
-  background: #33e1ff;
+  background: #9c6bf2;
   transform: translateY(-1px);
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 0 20px rgba(136, 80, 240, 0.4);
 }
 .burger {
   display: none; flex-direction: column; gap: 5px;
   background: transparent; padding: 4px; cursor: pointer;
+  margin-left: auto;
 }
 .burger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: 0.3s; }
 .burgerOpen span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
@@ -71,7 +72,7 @@
 .mobile {
   position: fixed; top: 68px; left: 0; right: 0;
   background: rgba(11,9,0,0.97);
-  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+  border-bottom: 1px solid rgba(136, 80, 240, 0.1);
   display: flex; flex-direction: column; gap: 4px;
   padding: 16px 32px 24px;
 }
@@ -84,7 +85,7 @@
 .mobileCta {
   margin-top: 12px;
   text-align: center; padding: 12px !important;
-  background: var(--neon-blue); color: #000 !important;
+  background: var(--neon-blue); color: #fff !important;
   border-radius: 8px; font-weight: 700 !important;
   border-bottom: none !important;
 }

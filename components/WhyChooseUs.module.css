@@ -25,8 +25,8 @@
 
 /* Featured left card */
 .featured {
-  background: linear-gradient(135deg, #06091c 0%, #030308 100%);
-  border: 1px solid rgba(0, 212, 255, 0.25);
+  background: linear-gradient(135deg, #0d061f 0%, #030308 100%);
+  border: 1px solid rgba(136, 80, 240, 0.25);
   border-radius: var(--radius-lg);
   overflow: hidden;
   height: 100%;
@@ -40,8 +40,8 @@
 }
 .featuredTag {
   display: inline-block;
-  background: rgba(0, 212, 255, 0.08);
-  border: 1px solid rgba(0, 212, 255, 0.2);
+  background: rgba(136, 80, 240, 0.08);
+  border: 1px solid rgba(136, 80, 240, 0.2);
   color: var(--neon-blue);
   font-size: 0.78rem; font-weight: 700;
   letter-spacing: 0.06em;
@@ -70,8 +70,8 @@
 .illoCircle {
   width: 100px; height: 100px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(0, 212, 255, 0.15), rgba(0, 212, 255, 0.05));
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  background: linear-gradient(135deg, rgba(136, 80, 240, 0.15), rgba(136, 80, 240, 0.05));
+  border: 2px solid rgba(136, 80, 240, 0.3);
   display: flex; align-items: center; justify-content: center;
   font-size: 3rem;
   z-index: 2; position: relative;
@@ -83,14 +83,14 @@
   position: absolute;
   width: 140px; height: 140px;
   border-radius: 50%;
-  border: 1px dashed rgba(0, 212, 255, 0.2);
+  border: 1px dashed rgba(136, 80, 240, 0.2);
   animation: spin 12s linear infinite reverse;
 }
 .ring2 {
   position: absolute;
   width: 180px; height: 180px;
   border-radius: 50%;
-  border: 1px dashed rgba(0, 212, 255, 0.1);
+  border: 1px dashed rgba(136, 80, 240, 0.1);
   animation: spin 20s linear infinite;
 }
 
@@ -98,14 +98,14 @@
   display: inline-block;
   padding: 12px 28px;
   background: var(--neon-blue);
-  color: #000; font-weight: 700; font-size: 0.95rem;
+  color: #fff; font-weight: 700; font-size: 0.95rem;
   border-radius: 8px;
   width: fit-content;
   transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 .featuredBtn:hover {
-  background: #33e1ff;
-  box-shadow: 0 0 24px rgba(0, 212, 255, 0.4);
+  background: #9c6bf2;
+  box-shadow: 0 0 24px rgba(136, 80, 240, 0.4);
   transform: translateY(-2px);
 }
 
@@ -125,9 +125,9 @@
   transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
 }
 .card:hover {
-  border-color: rgba(0, 212, 255, 0.25);
+  border-color: rgba(136, 80, 240, 0.25);
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 212, 255, 0.08);
+  box-shadow: 0 12px 32px rgba(136, 80, 240, 0.08);
 }
 .cardIcon { font-size: 1.8rem; margin-bottom: 14px; }
 .cardTitle {
@@ -139,14 +139,14 @@
 
 .quoteBlock {
   margin-top: 60px;
-  background: linear-gradient(135deg, rgba(0, 212, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
-  border: 1px solid rgba(0, 212, 255, 0.12);
+  background: linear-gradient(135deg, rgba(136, 80, 240, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+  border: 1px solid rgba(136, 80, 240, 0.12);
   border-radius: var(--radius-lg);
   padding: 40px;
   text-align: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 20px 48px rgba(0, 212, 255, 0.04);
+  box-shadow: 0 20px 48px rgba(136, 80, 240, 0.04);
 }
 .quoteBlock::before {
   content: '';

@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap');
 
 :root {
-  --gold: #F5C518;
-  --gold-dark: #FFE566;
-  --neon-blue: #00D4FF;
+  --gold: #5858F0; /* Blue-violet */
+  --gold-dark: #8050E8; /* Purple */
+  --neon-blue: #8850F0; /* Violet */
   --bg: #030308;
   --bg-card: rgba(255, 255, 255, 0.03);
   --bg-card-hover: rgba(255, 255, 255, 0.05);
   --bg-alt: #070712;
   --text: #ffffff;
   --text-muted: #8b94a8;
-  --border: rgba(0, 212, 255, 0.1);
-  --border-gold: rgba(245, 197, 24, 0.15);
+  --border: rgba(136, 80, 240, 0.15); /* Violet-based border */
+  --border-gold: rgba(88, 88, 240, 0.15); /* Blue-violet-based border */
   --max-width: 1240px;
   --radius: 12px;
   --radius-lg: 18px;
-  --neon-glow: rgba(0, 212, 255, 0.25);
-  --gold-glow: rgba(245, 197, 24, 0.25);
+  --neon-glow: rgba(136, 80, 240, 0.25); /* Violet-based glow */
+  --gold-glow: rgba(88, 88, 240, 0.25); /* Blue-violet-based glow */
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -29,4 +29,18 @@ ul { list-style: none; }
 
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: rgba(136, 80, 240,0.3); border-radius: 3px; }
+
+/* Custom premium styling for ListVera logo text */
+.listvera-text {
+  color: #ffffff !important;
+}
+
+.listvera-v {
+  color: #8850F0; /* Fallback Violet */
+  background: linear-gradient(135deg, #8850F0 0%, #8050E8 50%, #5858F0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}

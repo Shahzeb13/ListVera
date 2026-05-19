@@ -1,6 +1,6 @@
 .footer {
   background: #06050a;
-  border-top: 1px solid rgba(0, 212, 255, 0.08);
+  border-top: 1px solid rgba(136, 80, 240, 0.08);
   padding: 70px 24px 36px;
 }
 .inner { max-width: var(--max-width); margin: 0 auto; }
@@ -27,7 +27,7 @@
 .social:hover {
   border-color: var(--neon-blue);
   color: var(--neon-blue);
-  background: rgba(0, 212, 255, 0.08);
+  background: rgba(136, 80, 240, 0.08);
   transform: translateY(-3px);
 }
 

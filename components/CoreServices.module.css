@@ -24,7 +24,7 @@
 .ctaLink {
   display: inline-block;
   color: var(--neon-blue); font-weight: 700; font-size: 0.95rem;
-  border-bottom: 1px solid rgba(0, 212, 255, 0.4);
+  border-bottom: 1px solid rgba(136, 80, 240, 0.4);
   padding-bottom: 2px;
   transition: border-color 0.2s, opacity 0.2s;
 }
@@ -49,14 +49,14 @@
   transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
 }
 .card:hover {
-  border-color: rgba(0, 212, 255, 0.35);
+  border-color: rgba(136, 80, 240, 0.35);
   transform: translateY(-6px);
-  box-shadow: 0 20px 48px rgba(0, 212, 255, 0.12);
+  box-shadow: 0 20px 48px rgba(136, 80, 240, 0.12);
 }
 
 .tag {
   position: absolute; top: 16px; right: 16px;
-  background: var(--gold); color: #000;
+  background: var(--gold); color: #fff;
   font-size: 0.68rem; font-weight: 800;
   letter-spacing: 0.08em; text-transform: uppercase;
   padding: 3px 10px; border-radius: 100px;
@@ -66,16 +66,16 @@
 .iconBox {
   width: 56px; height: 56px;
   border-radius: 14px;
-  background: rgba(0, 212, 255, 0.08);
-  border: 1px solid rgba(0, 212, 255, 0.18);
+  background: rgba(136, 80, 240, 0.08);
+  border: 1px solid rgba(136, 80, 240, 0.18);
   display: flex; align-items: center; justify-content: center;
   font-size: 1.6rem;
   transition: background 0.25s, box-shadow 0.25s;
 }
 .card:hover .iconBox {
-  background: rgba(0, 212, 255, 0.15);
+  background: rgba(136, 80, 240, 0.15);
   border-color: var(--neon-blue);
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+  box-shadow: 0 0 20px rgba(136, 80, 240, 0.2);
 }
 
 .cardTitle {

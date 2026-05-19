@@ -74,7 +74,9 @@ export default function WhyChooseUs() {
           </p>
           <div className={styles.quoteAuthor}>
             <span className={styles.authorLine} />
-            <span className={styles.authorName}>ListVera Founder</span>
+            <span className={styles.authorName}>
+              <span className="listvera-text">List<span className="listvera-v">V</span>era</span> Founder
+            </span>
           </div>
         </div>
       </div>

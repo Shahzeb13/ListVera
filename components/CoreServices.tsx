@@ -3,7 +3,7 @@ import styles from "./CoreServices.module.css";
 const services = [
   { icon: "🏛️", title: "Exchange Listing", desc: "End-to-end CEX application management. We handle legal reviews, technical integration, and launch coordination on tier-1 platforms.", tag: "Most Popular" },
   { icon: "⚙️", title: "Market Making", desc: "Algorithmic trading solutions to maintain optimal market depth, minimize spreads, and manage price stability on all primary exchanges.", tag: "" },
-  { icon: "👛", title: "Wallet Listing", desc: "Secure integration into major Web3 wallets — Trust Wallet, MetaMask, Safe and more — ensuring your token is globally accessible.", tag: "" },
+  // { icon: "👛", title: "Wallet Listing", desc: "Secure integration into major Web3 wallets — Trust Wallet, MetaMask, Safe and more — ensuring your token is globally accessible.", tag: "" },
   { icon: "📢", title: "PR & Media", desc: "Premium placements on CoinDesk, Cointelegraph, Bloomberg Crypto and 50+ publications to establish credibility and drive awareness.", tag: "" },
   { icon: "👥", title: "Community Growth", desc: "Organic scale-up of Discord, Telegram and X communities with bots, quests, and active moderation to keep users highly engaged.", tag: "" },
   { icon: "🔥", title: "Influencer Campaigns", desc: "Collaborations with tier-1 Web3 KOLs on YouTube, X and TikTok to maximise token awareness, sentiment and launch buzz.", tag: "" },
