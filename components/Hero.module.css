@@ -249,7 +249,7 @@
     top: 48%;
   }
   .mobileLogos { display: block; }
-  .hero { min-height: 100vh; padding-bottom: 40px; }
+  .hero { min-height: auto; padding: 110px 24px 50px; }
 }
 
 @media (max-width: 768px) {
@@ -258,7 +258,7 @@
     transform: translate(-50%, -50%) scale(0.54);
     top: 48%;
   }
-  .hero { padding-top: 90px; min-height: 100vh; }
+  .hero { padding: 145px 24px 45px; min-height: auto; }
   .content { margin-top: -15px; }
   .heading { font-size: clamp(1.15rem, 5vw, 1.65rem); }
   .badge { font-size: 0.7rem; padding: 4px 10px; }
@@ -280,8 +280,8 @@
     width: 50px; height: 50px;
     padding: 9px;
   }
-  .hero { padding-top: 80px; min-height: 100vh; }
-  .content { margin-top: -30px; }
+  .hero { padding: 130px 24px 35px; min-height: auto; }
+  .content { margin-top: -15px; }
   .heading { font-size: clamp(0.92rem, 4.6vw, 1.25rem); margin-bottom: 10px; }
   .badge { font-size: 0.6rem; padding: 3px 8px; margin-bottom: 12px; }
   .taglineBox { margin-bottom: 12px; gap: 5px; }
